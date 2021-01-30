@@ -56,16 +56,16 @@ module ZQuickblox
 
       def build_params
         @params = {
-          "user[login]":            @login,
-          "user[password]":         @password,
-          "user[email]":            @email,
-          "user[blob_id]":          @blob_id,
-          "user[external_user_id]": @external_user_id,
-          "user[facebook_id]":      @facebook_id,
-          "user[twitter_id]":       @twitter_id,
-          "user[full_name]":        @full_name,
-          "user[phone]":            @phone,
-          "user[website]":          @website
+          "user[login]" =>            @login,
+          "user[password]" =>         @password,
+          "user[email]" =>            @email,
+          "user[blob_id]" =>          @blob_id,
+          "user[external_user_id]" => @external_user_id,
+          "user[facebook_id]" =>      @facebook_id,
+          "user[twitter_id]" =>       @twitter_id,
+          "user[full_name]" =>        @full_name,
+          "user[phone]" =>            @phone,
+          "user[website]" =>          @website
         }
       end
     end

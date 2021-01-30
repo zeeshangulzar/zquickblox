@@ -33,10 +33,10 @@ module ZQuickblox
 
     def build_params
       @params = {
-        "application_id": ZQuickblox.config.app_id,
-        "auth_key": ZQuickblox.config.auth_key,
-        "timestamp": Time.now.to_i,
-        "nonce": rand(2000)
+        "application_id" => ZQuickblox.config.app_id,
+        "auth_key" => ZQuickblox.config.auth_key,
+        "timestamp" =>  Time.now.to_i,
+        "nonce" => rand(2000)
       }
       @params["user[login]"] = @login if @login
       @params["user[password]"] = @password if @password

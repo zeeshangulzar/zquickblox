@@ -63,21 +63,21 @@ module ZQuickblox
 
       def build_params
         {
-          "type":              @type,
-          "occupants_ids":     @occupants_ids,
-          "name":              @name,
-          "photo":             @photo
+          "type"=>              @type,
+          "occupants_ids"=>     @occupants_ids,
+          "name"=>              @name,
+          "photo"=>             @photo
         }
       end
 
       def build_update_params
         {
-          "type":              @type,
-          "push_all": {
-            "occupants_ids": @occupants_ids
+          "type"=>              @type,
+          "push_all"=> {
+            "occupants_ids"=> @occupants_ids
           },
-          "name":              @name,
-          "photo":             @photo
+          "name"=>              @name,
+          "photo"=>             @photo
         }
       end
 
