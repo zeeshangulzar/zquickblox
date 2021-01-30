@@ -1,0 +1,16 @@
+current directory: /home/gerardo/4tellx/pdf_generator_site/.all_gems/gems/bond-0.5.1/ext/readline_line_buffer
+/home/gerardo/.rbenv/versions/2.6.5/bin/ruby -I /home/gerardo/.rbenv/versions/2.6.5/lib/ruby/2.6.0 -r ./siteconf20191004-2345-1jqj5vr.rb extconf.rb
+
+current directory: /home/gerardo/4tellx/pdf_generator_site/.all_gems/gems/bond-0.5.1/ext/readline_line_buffer
+make "DESTDIR=" clean
+make: *** No rule to make target 'clean'.  Stop.
+
+current directory: /home/gerardo/4tellx/pdf_generator_site/.all_gems/gems/bond-0.5.1/ext/readline_line_buffer
+make "DESTDIR="
+echo "This is a dummy extension"
+This is a dummy extension
+
+current directory: /home/gerardo/4tellx/pdf_generator_site/.all_gems/gems/bond-0.5.1/ext/readline_line_buffer
+make "DESTDIR=" install
+echo "This is a dummy extension"
+This is a dummy extension

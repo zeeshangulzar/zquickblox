@@ -1,0 +1,18 @@
+language: ruby
+cache: bundler
+
+rvm:
+  - 2.2.2
+
+install: 
+  - gem install bundler
+  - bundle install
+
+script: 'bundle exec rake'
+
+notifications:
+  email:
+    recipients:
+      - thuongnh.uit@gmail.com
+    on_failure: change
+    on_success: never
